@@ -35,6 +35,7 @@ end
 
 function plate()
   while true do
+    os.sleep(0.5)
     if c.getInput(sides.left) == 15 then
       c.setOutput(sides.left,15)
       sg.dial("9992-HVO-SM")
